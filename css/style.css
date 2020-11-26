@@ -1,0 +1,175 @@
+body{
+	background-color: #003300;
+	background-image: url(..//img/greenery.jpg);
+}
+
+#container{
+	margin: 0 auto;
+	width: 1250px;
+	margin-bottom: 100px;
+	margin-top: 50px;
+}
+
+#profile{
+	background-color: floralwhite;
+	background-position: center bottom;
+	background-repeat: repeat-x;
+	overflow: hidden;
+	border: 5px solid floralwhite;
+	border-radius: 6px
+}
+
+.about{
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 20px;
+	width: 800px;
+}
+
+.about .photo-inner{
+	float: left;
+	width: 300px;
+	padding: 12px 0 0 10px;
+}
+
+.about h1{
+	font-weight: 600;
+	font-family: 'Roboto Condensed', Merriwether;
+	line-height: 34px;
+	margin-top: 10px;
+	margin-left: -20px;
+}
+
+.about h3{
+	font-weight: 50;
+	font-family: Merriwether;
+	line-height: 18px;
+}
+
+.about p{
+	font-size: 17.5px;
+	font-family: Merriwether;
+	margin-top: 10px;
+	font-weight: 400;
+}
+
+.about p a{
+	font-family: Merriwether;
+	color: dimgrey;
+}
+
+.personal-info{
+	float: left;
+	margin-top: 30px;
+	width: 300px;
+	min-height: 200px;
+	margin-left: 15px;
+	padding: 12px 0 0 10px;
+}
+
+.personal-info li{
+	line-height: 15px;
+	font-size: 15px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	float: left;
+	width: 400px;
+}
+
+.personal-info li label{
+	font-weight: 900;
+	font-family: 'Roboto Condensed', Merriwether;
+	float: left;
+	padding: 4px 7px;
+	border-radius: 3px; 
+}
+
+.personal-info li span{
+	float: right;
+	width: 300px;
+	padding-top: 5px;
+	font-weight: 900;
+	font-family: 'Roboto Condensed', Merriwether;
+}
+
+.personal-info a{
+	float: left;
+	padding-top: 10px;
+	background-repeat: no-repeat;
+	font-size: 20px;
+	color: dimgrey;
+	text-align: left;
+	font-family: 'Roboto Condensed', Merriwether;
+	margin-left: 7px;
+	margin-right: 50px;
+}
+
+header{
+	position: relative;
+	overflow: visible;
+}
+
+.menu{
+	margin: 0 auto;
+	margin-top: 100px;
+	height: 70px;
+	width: 1250px;
+	background-color: floralwhite;
+	background: rgb(204, 204, 204);
+    background: rgba(204, 204, 204, 0.5);
+	position: relative;
+	padding-left: 130px;
+	padding-right: 130px;
+	border-width: 7px;
+	border-style: double;
+	border-color: floralwhite;
+}
+
+.tabs{
+	height: 117px;
+	position: absolute;
+	margin-top: -17px;
+	z-index: 100;
+}
+
+.tabs li > a{
+	padding-top: 30px;
+	width: 115px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	font-size: 20px;
+	color: burlywood;
+	text-align: center;
+	font-weight: 580;
+	font-family: 'Roboto Condensed', Merriwether;
+	line-height: 35px;
+	text-decoration: none;
+	margin-left: 150px;
+}
+
+.tabs li a:hover{
+	font-size: 23px;
+}
+
+#logo{
+	float: left;
+	overflow: hidden;
+	margin-left: 10px;
+	display: none;
+}
+
+#logo h4{
+	color: #555;
+	line-height: 20px;
+	font-family: Merriwether;
+	font-size: 20px;
+	margin-left: 7px;
+}
+
+
+
+
+
+
+
