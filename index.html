@@ -1,90 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8"></meta>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>About</title>
 
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+	 integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	
-	<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto+Condensed&display=swap" rel="stylesheet">
+	<style>
+		body {
+			background:url("img/brittney-weng-unsplash.jpg");
+			background-size:cover;
+			background-attachment: fixed;
+		}
+        #section1 {margin-top:100px; margin-bottom: 50px; width:75%; border-radius:25px;padding:50px;color: black; background-color: rgba(255, 255, 255, 0.918);}
+		#section2 {margin-top:100px; margin-bottom: 50px; width:75%; border-radius:25px;padding:50px;color: black; background-color: rgba(255, 255, 255, 0.918);}
+		#contact {margin-top:100px; margin-bottom: 50px; width:75%; border-radius:25px;padding:50px;color: black; background-color: rgba(255, 255, 255, 0.918);}
+        nav {
+            background-color: #ebd9b2ce;
+        }
+		a, a:hover, a:focus, a:active, a:visited {
+      		text-decoration: none;
+      		color: inherit;
+ 		}
+    </style>
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
-	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-	<nav class="menu">
-			<ul class="tabs">
-				<li>
-					<a href="#profile">
-					<i><i class="fa fa-user"></i></i> About
-					</a>
+	<nav class="navbar fixed-top">
+        <div class="container-fluid">
+            <h3 class="navbar-brand" style="font:Garamond;">Makayla K. Rodriguez</h3>
+            <ul class="justify-content-end">
+				<button class="btn btn-sm btn-outline-light">
+					<a href="#section1">About</a>
+				</button>
+				<button class="btn btn-sm btn-outline-light">
+					<a href="#contact">Contact</a>
+				</button>
+				<button class="btn btn-sm btn-outline-light">
+					<a href="resume/Resume_Makayla_K_Rodriguez (2022).pdf" target="_blank">Resume</a>
+				</button>
+            </ul>
+        </div>
+    </nav>
 
-					<a href="resume/Resume_Makayla_K_Rodriguez.pdf" target="_blank">
-					<i><i class="fa fa-file"></i></i> Resume
-					</a>
+	<div id="section1" class="container-fluid">
+        <img src="img/ProfileIsland.jpeg" height="200">
+		<div style="color:rgb(44, 29, 29); padding-left: 5%; display:inline-block;">
+			<h1>Hello my name is Makayla K.</h1>
+			<h2>and I am a Software Engineer!</h2>
+		</div>
+        <div style="margin-top:15px;">
+			<p>
+				I am a Software Engineer undergrad from Cal State - Monterey Bay and I will be graduating <strong>May of 2022</strong>. I am a part of the <a href="https://csin3.com/" target="_blank">CSin3</a> 
+				cohort program. CSin3 is a selective accelerated pathway for earning a bachelor's degree in three years, featuring regular extracurricular workshops on academic and professional development.
+				Outside of school I enjoy working on pieces inclusive to <strong>Open Source</strong>, <strong>Mobile App Development</strong>, and <strong>Web Design</strong>! Being not only a minority 
+				but a woman in the STEM industry, it has constanlty pushed me to reach my full potential.
+			</p>
+			<br>
+			<h4 style="color:rgb(44, 29, 29);">Ethnic Background</h4>
+			<br>
+			<p>
+				I was raised on the island of O'ahu and moved to the mainland at the start of my high school career. 
+				Deeply imersed in my Hawaiian culture I learned to dance hula and paddle outrigger canoe with my family's club, 
+				Ke Kai O'uhane. One of my passions is to share and perpetuate the aloha (love) to all. 
+				My cultural background has taught me to be appreciative, respectful, and most of all creative. 
+				I have found this to be an amazing outlet to connect with others.
+			</p>
+        </div>
+    </div>
 
-					<a href="portfolio.html">
-					<i><i class="fa fa-eercast"></i></i> Portfolio
-					</a>
-				</li>
-			</ul>
-		</nav>
 
-	<section id="container">
-		<header>
-			<div id="logo">
-				<h2>Makayla K. Rodriguez</h2>
-				<h4>Computer Science Engineer</h4>
+	<div id="section2" class="container-fluid">
+		<h1 style="text-align: center; color: rgb(44, 29, 29);">Engineering Projects</h1>
+		<div class="d-flex flex-column">
+			<div class="p-2" style="display:inline-flex; text-align:left; margin-top: 2%;">
+				<img src="img/USD.jpg" height="150px" width="300px">
+				<div style="padding-left: 2%;">
+					<h5 style="color: rgb(44, 29, 29);">Universal Scene Description (USD)</h5>
+					<p>USD is an easily extensible, open-source 3D scene description and file format developed by Pixar. I was able to contribute to this project by...</p>
+					<ul>
+						<li><a href="https://github.com/PixarAnimationStudios/USD/pull/1393" target="_blank" style="color:orange;">Improving the docutmentation</a> for building the USD codebase on MacOS</li>
+					</ul>
+					<p>Currently for this project I am still working through the USD tutorials to build a USD plugin.</p>
+				</div>
 			</div>
-		</header>
-
-		<section id="content">
-			<div id="profile">
-				<div class="about">
-					<div class="photo-inner">
-						<ul>
-							<li><img src="img/ProfileIsland.jpeg" height="200"></li>
-						</ul>
-					</div>
-					<h1>Makayla K. Rodriguez</h1>
-					<h3>Software Engineer Undergrad</h3>
-					<br>
-					<p>
-
-						Hi! I am a Software Engineer undergrad from Cal State - Monterey Bay. I am a part of the <a href="https://csin3.com/" target="_blank">CSin3</a> cohort program. Outside of school I enjoy working on pieces inclusive to Open Source, Android studio, and Web Design! Being not only a minority but a woman in the STEM industry, it has constanlty pushed me to reach my full potential.
-
+			<div class="p-2" style=" display:inline-flex; text-align:left; margin-top: 2%;">
+				<div style="padding-right: 2%;">
+					<h5 style="color: rgb(44, 29, 29);">Project Share (Android & IOS App)</h5>
+					<p>As a first generation college student, I know how hard it can be to find beginner CS opportunities outside of school.
+						I came up with an app where students can explore and find CS opportunities they may be interested in 
+						such as open source, mobile and web development etc. With colaboration from 2 other students, we were able to build an app that can...
 					</p>
-
-					<p>
-						I was raised on the island of O'ahu and moved to the mainland at the start of my high school career. Deeply imersed in my Hawaiian culture I learned to dance hula and paddle outrigger canoe with my family's club, <a href="http://kekaiouhane.org/" target="_blank">Ke Kai O'uhane</a>. One of my passions is to share and perpetuate the aloha (love) to all. My cultural background has taught me to be appreciative, respectful, and most of all creative. I have found this to be an outlet to connect with others.
-
+					<ul>
+						<li>Register and Login users (users can be students, mentors, industry etc).</li>
+						<li>Users can see a list of projects with a description</li>
+						<li>Users can post and comment on projects</li>
+					</ul>
+					<p>My goal for Project Share is to get students involved with CS early in their college career.
 					</p>
 				</div>
-				<ul class="personal-info">
-					<li><label>Education</label><span>Cal State Monterey Bay</span></li>
-					<li><label>Major</label><span>Computer Science & Software Engineering</span></li>
-					<li><label>Email</label><span class="word-wrap">makrodriguez@csumb.edu</span></li>
-
-					<a href="https://www.linkedin.com/in/makayla-rodriguez/" target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a>
-
-					<a href="https://github.com/makayla-k" target="_blank"><i class="fa fa-github-square"></i> GitHub</a>
-
-				</ul>
-				
+				<img src="img/project_share_logo.jpg" width="250px">
 			</div>
-		</section>
+		</div>
+    </div>
 
-	</section>
-
-	<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
+	<div id="contact" class="container-fluid">
+		<h1 style="text-align: center; color: rgb(44, 29, 29);">Contact Information</h1>
+		<div class="d-flex justify-content-center flex-row" style="padding:2%; text-align: center;">
+			<div class="p-2" style="margin-left: 50px;">
+				<img src="img/linkedin.png" width="150px">
+				<h4 style="margin-top: 20px;"><a href="https://www.linkedin.com/in/makayla-rodriguez/" target="_blank" style="color: orange;;">Makayla K. Rodriguez</a></h4>
+			</div>
+			<div class="p-2" style="margin-left: 50px;">
+				<img src="img/github.png" width="150px">
+				<h4 style="margin-top: 20px;"><a href="https://github.com/makayla-k" target="_blank" style="color: orange;;">Makayla-k</a></h4>
+			</div>
+			<div class="p-2" style="margin-left: 50px;">
+				<img src="img/email.png" width="150px">
+				<h4 style="margin-top: 20px;"><a href="" target="_blank" style="color: orange;;">makaylak718@gmail.com</a></h4>
+			</div>
+		  </div>
+	</div>
 
 </body>
+
 </html>
