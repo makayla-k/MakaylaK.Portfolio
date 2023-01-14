@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>About</title>
 
+	<!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
 	 integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- jQuery library -->
@@ -12,22 +13,32 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
+    <!-- fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400&display=swap" rel="stylesheet">
+
 	<style>
 		body {
-			background:url("img/brittney-weng-unsplash.jpg");
+			background:url("img/pexels-lukas-rodriguez-5618463.jpg");
 			background-size:cover;
 			background-attachment: fixed;
 		}
-        #section1 {margin-top:100px; margin-bottom: 50px; width:75%; border-radius:25px;padding:50px;color: black; background-color: rgba(255, 255, 255, 0.918);}
-		#section2 {margin-top:100px; margin-bottom: 50px; width:75%; border-radius:25px;padding:50px;color: black; background-color: rgba(255, 255, 255, 0.918);}
-		#contact {margin-top:100px; margin-bottom: 50px; width:75%; border-radius:25px;padding:50px;color: black; background-color: rgba(255, 255, 255, 0.918);}
+        #section1 {margin-top:100px; margin-bottom: 50px; width:75%; border-radius:25px;padding:35px;color: black; background-color: #fbf3ed;}
+		#section2 {margin-top:100px; margin-bottom: 50px; width:75%; border-radius:25px;padding:35px;color: black; background-color: #fbf3ed;}
+		#connect {margin-top:100px; margin-bottom: 50px; width:75%; border-radius:25px;padding:35px;color: black; background-color: #fbf3ed;}
         nav {
-            background-color: #ebd9b2ce;
+            background-color: #ffba68;
         }
 		a, a:hover, a:focus, a:active, a:visited {
       		text-decoration: none;
       		color: inherit;
  		}
+ 		p {
+ 			font-size: 18px;
+ 		}
+
+ 		/*fonts*/
+ 		@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400&display=swap');
     </style>
 
 </head>
@@ -35,96 +46,95 @@
 
 	<nav class="navbar fixed-top">
         <div class="container-fluid">
-            <h3 class="navbar-brand" style="font:Garamond;">Makayla K. Rodriguez</h3>
+            <h3 class="navbar-brand" style="font-family: 'Kalam', cursive; color:white;">Software Engineer Diaries</h3>
             <ul class="justify-content-end">
 				<button class="btn btn-sm btn-outline-light">
-					<a href="#section1">About</a>
+					<a href="#empty">About</a>
 				</button>
 				<button class="btn btn-sm btn-outline-light">
-					<a href="#contact">Contact</a>
+					<a href="blog_posts.html">Blog</a>
 				</button>
+
 				<button class="btn btn-sm btn-outline-light">
-					<a href="resume/Resume_Makayla_K_Rodriguez (2022).pdf" target="_blank">Resume</a>
+					<a href="#connect">Connect</a>
 				</button>
             </ul>
         </div>
     </nav>
 
-	<div id="section1" class="container-fluid">
-        <img src="img/ProfileIsland.jpeg" height="200">
-		<div style="color:rgb(44, 29, 29); padding-left: 5%; display:inline-block;">
-			<h1>Hello my name is Makayla K.</h1>
-			<h2>and I am a Software Engineer!</h2>
-		</div>
-        <div style="margin-top:15px;">
-			<p>
-				I am a Software Engineer undergrad from Cal State - Monterey Bay and I will be graduating <strong>May of 2022</strong>. I am a part of the <a href="https://csin3.com/" target="_blank">CSin3</a> 
-				cohort program. CSin3 is a selective accelerated pathway for earning a bachelor's degree in three years, featuring regular extracurricular workshops on academic and professional development.
-				Outside of school I enjoy working on pieces inclusive to <strong>Open Source</strong>, <strong>Mobile App Development</strong>, and <strong>Web Design</strong>! Being not only a minority 
-				but a woman in the STEM industry, it has constanlty pushed me to reach my full potential.
-			</p>
-			<br>
-			<h4 style="color:rgb(44, 29, 29);">Ethnic Background</h4>
-			<br>
-			<p>
-				I was raised on the island of O'ahu and moved to the mainland at the start of my high school career. 
-				Deeply imersed in my Hawaiian culture I learned to dance hula and paddle outrigger canoe with my family's club, 
-				Ke Kai O'uhane. One of my passions is to share and perpetuate the aloha (love) to all. 
-				My cultural background has taught me to be appreciative, respectful, and most of all creative. 
-				I have found this to be an amazing outlet to connect with others.
-			</p>
-        </div>
-    </div>
-
-
-	<div id="section2" class="container-fluid">
-		<h1 style="text-align: center; color: rgb(44, 29, 29);">Engineering Projects</h1>
+	<div id="section1" class="container-fluid" style="font-family:EB Garamond;">
+		<h1 style="text-align: center; font-family: 'Kalam', cursive;">Featured Blog Posts</h1>
 		<div class="d-flex flex-column">
 			<div class="p-2" style="display:inline-flex; text-align:left; margin-top: 2%;">
-				<img src="img/USD.jpg" height="150px" width="300px">
+				<div  style="box-shadow: 3px 3px 5px grey;">
+					<img src="img/booksandcoffee.jpeg" width="150px">
+				</div>
 				<div style="padding-left: 2%;">
-					<h5 style="color: rgb(44, 29, 29);">Universal Scene Description (USD)</h5>
-					<p>USD is an easily extensible, open-source 3D scene description and file format developed by Pixar. I was able to contribute to this project by...</p>
-					<ul>
-						<li><a href="https://github.com/PixarAnimationStudios/USD/pull/1393" target="_blank" style="color:orange;">Improving the docutmentation</a> for building the USD codebase on MacOS</li>
-					</ul>
-					<p>Currently for this project I am still working through the USD tutorials to build a USD plugin.</p>
+					<h2>Books That Changed My Mindset</h2>
+					<h5>Coming soon! Jan 24th, 2023 @ 6pm PST</h5>
 				</div>
 			</div>
 			<div class="p-2" style=" display:inline-flex; text-align:left; margin-top: 2%;">
 				<div style="padding-right: 2%;">
-					<h5 style="color: rgb(44, 29, 29);">Project Share (Android & IOS App)</h5>
-					<p>As a first generation college student, I know how hard it can be to find beginner CS opportunities outside of school.
-						I came up with an app where students can explore and find CS opportunities they may be interested in 
-						such as open source, mobile and web development etc. With colaboration from 2 other students, we were able to build an app that can...
-					</p>
-					<ul>
-						<li>Register and Login users (users can be students, mentors, industry etc).</li>
-						<li>Users can see a list of projects with a description</li>
-						<li>Users can post and comment on projects</li>
-					</ul>
-					<p>My goal for Project Share is to get students involved with CS early in their college career.
-					</p>
+					<h3>What 2022 Has Taught Me</h3>
+					<h6>Preview</h6>
+					<h5>This past May I graduated with my Bachelors in Computer Science! After three years of taking an average of 18 units a semester, summer and winter classes, working part-time as a TA, working on side projects to up build my resume, and taking additional courses to prepare for technical interviews, I can finally say "I did it" and it was all worth it!</h5>
+					<h6><a style="color:#ffba68; text-decoration-line: underline;" href="blog_posts.html#what2022taughtme">Read more</a></h6>
 				</div>
-				<img src="img/project_share_logo.jpg" width="250px">
+				<div style="box-shadow: 3px 3px 5px grey;">
+					<img src="img/meandmydegree.jpg" width="175px">
+				</div>
 			</div>
 		</div>
+	    <div id="empty"></div>
     </div>
 
-	<div id="contact" class="container-fluid">
-		<h1 style="text-align: center; color: rgb(44, 29, 29);">Contact Information</h1>
-		<div class="d-flex justify-content-center flex-row" style="padding:2%; text-align: center;">
+
+	<div id="section2" class="container-fluid" style="font-family:EB Garamond;">
+		<h1 style="text-align: center; font-family: 'Kalam', cursive;">About Me</h1>
+		<div class="d-flex flex-column">
+			<div class="p-2" style="display:inline-flex; text-align:left; margin-top: 2%;">
+				<img src="img/ProfileIsland.jpeg" height="240">
+				<div style="padding-left: 3%;">
+					<h4>Hello my name is Makayla and I am a Software Engineer!</h4>
+					<p>
+						I am starting this blog to share my story. What life was like during college majoring in a male dominated
+						field, how I stayed motivated after college even after graduating with no job leads, and all the things I have learned along the way. It's been quite a journey but I hope by sharing my experiences I will be able to uplift others!
+					</p>
+					<p>
+						Currently, I now work for a Startup company as a Customer Success Engineer! I have also worked for Meta and an amazing non-profit CodePath. During school I did everything I could to challenge myself and make myself a well rounded engineer. Now I am continue to better myself not only as a SWE but as an individual as well!
+					</p>
+				</div>
+			</div>
+		</div>
+		<h4>Ethnic Background</h4>
+		<p>
+			I was raised on the island of O'ahu and moved to the mainland at the start of my high school career. 
+			Deeply imersed in my Hawaiian culture I learned to dance hula and paddle outrigger canoe with my family's club, 
+			Ke Kai O'uhane. One of my passions is to share and perpetuate the aloha (love) to all. 
+			My cultural background has taught me to be appreciative, respectful, and most of all creative. 
+			I have found this to be an amazing outlet to connect with others.
+		</p>
+    </div>
+
+	<div id="connect" class="container-fluid">
+		<h1 style="text-align: center;  font-family: 'Kalam', cursive;">Get Connected!</h1>
+		<div class="d-flex justify-content-center flex-row" style="padding:2%; text-align: center; font-family:EB Garamond;">
 			<div class="p-2" style="margin-left: 50px;">
-				<img src="img/linkedin.png" width="150px">
-				<h4 style="margin-top: 20px;"><a href="https://www.linkedin.com/in/makayla-rodriguez/" target="_blank" style="color: orange;;">Makayla K. Rodriguez</a></h4>
+				<img src="img/linkedin.png" width="125px">
+				<h5 style="margin-top: 20px;"><a href="https://www.linkedin.com/in/makayla-rodriguez/" target="_blank" style="color: orange;;">Makayla K. Rodriguez</a></h5>
 			</div>
 			<div class="p-2" style="margin-left: 50px;">
-				<img src="img/github.png" width="150px">
-				<h4 style="margin-top: 20px;"><a href="https://github.com/makayla-k" target="_blank" style="color: orange;;">Makayla-k</a></h4>
+				<img src="img/github.png" width="125px">
+				<h5 style="margin-top: 20px;"><a href="https://github.com/makayla-k" target="_blank" style="color: orange;;">Makayla-k</a></h5>
 			</div>
 			<div class="p-2" style="margin-left: 50px;">
-				<img src="img/email.png" width="150px">
-				<h4 style="margin-top: 20px;"><a href="" target="_blank" style="color: orange;;">makaylak718@gmail.com</a></h4>
+				<img src="img/tiktok.png" width="125px">
+				<h5 style="margin-top: 20px;"><a href="https://www.tiktok.com/@thegirlwhocodez" target="_blank" style="color: orange;;">@thegirlwhocodez</a></h5>
+			</div>
+			<div class="p-2" style="margin-left: 50px;">
+				<img src="img/email.png" width="125px">
+				<h5 style="margin-top: 20px;"><a href="" target="_blank" style="color: orange;;">Mailing List (coming soon!)</a></h5>
 			</div>
 		  </div>
 	</div>
