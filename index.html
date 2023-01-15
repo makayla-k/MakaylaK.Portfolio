@@ -23,9 +23,9 @@
 			background-size:cover;
 			background-attachment: fixed;
 		}
-        #section1 {margin-top:100px; margin-bottom: 50px; width:75%; border-radius:25px;padding:35px;color: black; background-color: #fbf3ed;}
-		#section2 {margin-top:100px; margin-bottom: 50px; width:75%; border-radius:25px;padding:35px;color: black; background-color: #fbf3ed;}
-		#connect {margin-top:100px; margin-bottom: 50px; width:75%; border-radius:25px;padding:35px;color: black; background-color: #fbf3ed;}
+        #section1 {margin-top:100px; margin-bottom: 50px; width:75%; border-radius:25px;padding:2%;color: black; background-color: #fbf3ed;}
+		#section2 {margin-top:100px; margin-bottom: 50px; width:75%; border-radius:25px;padding:2%;color: black; background-color: #fbf3ed;}
+		#connect {margin-top:100px; margin-bottom: 50px; width:75%; border-radius:25px;padding:2%;color: black; background-color: #fbf3ed;}
         nav {
             background-color: #ffba68;
         }
@@ -64,26 +64,26 @@
 
 	<div id="section1" class="container-fluid" style="font-family:EB Garamond;">
 		<h1 style="text-align: center; font-family: 'Kalam', cursive;">Featured Blog Posts</h1>
-		<div class="d-flex flex-column">
-			<div class="p-2" style="display:inline-flex; text-align:left; margin-top: 2%;">
-				<div  style="box-shadow: 3px 3px 5px grey;">
-					<img src="img/booksandcoffee.jpeg" width="150px">
-				</div>
-				<div style="padding-left: 2%;">
+		
+		<div class="row justify-content-center" style="padding-left: 1%;padding-right: 1%;padding-bottom: 5%">
+			<div class="col-12">
+				<img class="float-start" style="width:20%; padding-right: 2%; padding-top: 1%;" src="img/booksandcoffee.jpeg">
+				<div>
 					<h3>Next post: Books That Changed My Mindset</h3>
 					<h5>Coming soon! Jan 24th, 2023 @ 6pm PST</h5>
 				</div>
 			</div>
-			<div class="p-2" style=" display:inline-flex; text-align:left; margin-top: 2%;">
-				<div style="padding-right: 2%;">
+		</div>
+		<div class="row justify-content-center" style="padding-left: 1%;padding-right: 1%">
+			<div class="col-12" >
+
+				<img class='float-end ' style="width:25%; padding-left: 2%; padding-top: 2%;" src="img/meandmydegree.jpg">
+				<div>
 					<h3>What 2022 Has Taught Me</h3>
 					<h6>Friday January 14th, 2023</h6>
 					<h5>This past May I graduated with my Bachelors in Computer Science! It was quite a journey to make it to gradution. Back in 2019 I joined a Computer Science cohort program that basically took over my life for three years. I was taking an average of 18 units a semester, I was cross enrolled between a community college and a CSU, every summer and winter I took classes, I participated in extracurriculars that were apart of the cohorts requirements, and to prepare myself for life after college I did everything I could to make myself a well rounded engineer.</h5>
-					<h6><a style="color:#ffba68; text-decoration-line: underline;" href="blog_posts.html#what2022taughtme">Read more</a></h6>
 				</div>
-				<div style="box-shadow: 3px 3px 5px grey;">
-					<img src="img/meandmydegree.jpg" width="200px">
-				</div>
+				<h6><a style="color:#ffba68; text-decoration-line: underline;" href="blog_posts.html#what2022taughtme">Read more</a></h6>
 			</div>
 		</div>
 	    <div id="empty"></div>
@@ -92,51 +92,54 @@
 
 	<div id="section2" class="container-fluid" style="font-family:EB Garamond;">
 		<h1 style="text-align: center; font-family: 'Kalam', cursive;">About Me</h1>
-		<div class="d-flex flex-column">
-			<div class="p-2" style="display:inline-flex; text-align:left; margin-top: 2%;">
-				<img src="img/ProfileIsland.jpeg" height="240">
-				<div style="padding-left: 3%;">
-					<h4>Hello my name is Makayla and I am a Software Engineer!</h4>
-					<p>
-						I am starting this blog to share my story. What life was like during college majoring in a male dominated
-						field, how I stayed motivated after college even after graduating with no job leads, and all the things I have learned along the way. It's been quite a journey but I hope by sharing my experiences I will be able to uplift others!
-					</p>
-					<p>
-						Currently, I now work for a Startup company as a Customer Success Engineer! I have also worked for Meta and an amazing non-profit CodePath. During school I did everything I could to challenge myself and make myself a well rounded engineer. Now I am continue to better myself not only as a SWE but as an individual as well!
-					</p>
-				</div>
+
+
+		<div class="row justify-content-center" style="padding-left: 1%;padding-right: 1%">
+			<div class="col-12" >
+				<img class='float-start' style="width:30%; padding-right: 3%" src="img/ProfileIsland.jpeg">
+
+				<h4>Hello my name is Makayla and I am a Software Engineer!</h4>
+				<p>
+					I am starting this blog to share my story. What life was like during college majoring in a male dominated
+					field, how I stayed motivated after college even after graduating with no job leads, and all the things I have learned along the way. It's been quite a journey but I hope by sharing my experiences I will be able to uplift others!
+				</p>
+				<p>
+					Currently, I now work for a Startup company as a Customer Success Engineer! I have also worked for Meta and an amazing non-profit CodePath. During school I did everything I could to challenge myself and make myself a well rounded engineer. Now I am continue to better myself not only as a SWE but as an individual as well!
+				</p>
+				<h4>Ethnic Background</h4>
+				<p>
+					I was raised on the island of O'ahu and moved to the mainland at the start of my high school career. 
+					Deeply imersed in my Hawaiian culture I learned to dance hula and paddle outrigger canoe with my family's club, 
+					Ke Kai O'uhane. One of my passions is to share and perpetuate the aloha (love) to all. 
+					My cultural background has taught me to be appreciative, respectful, and most of all creative. 
+					I have found this to be an amazing outlet to connect with others.
+				</p>
 			</div>
 		</div>
-		<h4>Ethnic Background</h4>
-		<p>
-			I was raised on the island of O'ahu and moved to the mainland at the start of my high school career. 
-			Deeply imersed in my Hawaiian culture I learned to dance hula and paddle outrigger canoe with my family's club, 
-			Ke Kai O'uhane. One of my passions is to share and perpetuate the aloha (love) to all. 
-			My cultural background has taught me to be appreciative, respectful, and most of all creative. 
-			I have found this to be an amazing outlet to connect with others.
-		</p>
     </div>
 
 	<div id="connect" class="container-fluid">
 		<h1 style="text-align: center;  font-family: 'Kalam', cursive;">Get Connected!</h1>
-		<div class="d-flex justify-content-center flex-row" style="padding:2%; text-align: center; font-family:EB Garamond;">
-			<div class="p-2" style="margin-left: 50px;">
-				<img src="img/linkedin.png" width="125px">
-				<h5 style="margin-top: 20px;"><a href="https://www.linkedin.com/in/makayla-rodriguez/" target="_blank" style="color: orange;;">Makayla K. Rodriguez</a></h5>
+		<div class="row justify-content-between" style="padding-left: 1%;padding-right: 1%">
+			<div class="col-6 col-md-3" style="text-align:center; padding-top:2% ">
+				<img src="img/linkedin.png" width="80%">
+				<strong style="margin-top: 20px; font-size: 100%;"><a href="https://www.linkedin.com/in/makayla-rodriguez/" target="_blank" style="color: orange;">Makayla K. Rodriguez</a></strong>
 			</div>
-			<div class="p-2" style="margin-left: 50px;">
-				<img src="img/github.png" width="125px">
-				<h5 style="margin-top: 20px;"><a href="https://github.com/makayla-k" target="_blank" style="color: orange;;">Makayla-k</a></h5>
+			<div class="col-6 col-md-3" style="text-align:center; padding-top:2%">
+				<img src="img/github.png" width="80%" >
+				<strong style="margin-top: 20px; font-size: 100%; padding-top:2%"><a href="https://github.com/makayla-k" target="_blank" style="color: orange;;">Makayla-k</a></strong>
 			</div>
-			<div class="p-2" style="margin-left: 50px;">
-				<img src="img/tiktok.png" width="125px">
-				<h5 style="margin-top: 20px;"><a href="https://www.tiktok.com/@thegirlwhocodez" target="_blank" style="color: orange;;">@thegirlwhocodez</a></h5>
+			<div class="col-6 col-md-3" style="text-align:center; padding-top:2%">
+				<img src="img/tiktok.png" width="80%">
+				<strong style="margin-top: 20px;font-size: 100%; padding-top:2%"><a href="https://www.tiktok.com/@thegirlwhocodez" target="_blank" style="color: orange;;">@thegirlwhocodez</a></strong>
 			</div>
-			<div class="p-2" style="margin-left: 50px;">
-				<img src="img/email.png" width="125px">
-				<h5 style="margin-top: 20px;"><a href="" target="_blank" style="color: orange;;">Mailing List (coming soon!)</a></h5>
+			<div class="col-6 col-md-3" style="text-align:center; padding-top:2%">
+				<img src="img/email.png" width="80%">
+				<strong style="margin-top: 20px; font-size: 100%; padding-top:2%"><a href="" target="_blank" style="color: orange;;">Mailing List (coming soon!)</a></strong>
 			</div>
-		  </div>
+
+		</div>
+		
 	</div>
 
 </body>
